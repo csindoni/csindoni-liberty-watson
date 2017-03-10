@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: csindoni-liberty-watson
+  host: csindoni-liberty-watson
+  disk_quota: 1024M
+  services:
+  - csindoni-liberty-watson-cloudantNoSQLDB
+  - AlchemyAPI-zf
