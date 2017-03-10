@@ -3,7 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: csindoni-liberty-watson
+  name: csindoni-liberty-watson 
   host: csindoni-liberty-watson
   disk_quota: 1024M
   services:

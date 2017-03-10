@@ -1,0 +1,44 @@
+{
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "5b112fb8-1619-4e3b-8d30-d70ecbb47d18-bluemix",
+                "password": "59d7ad07336b6f00ea39ca530be5fdc8e92625652c79ffe8e67776c66dcc65a8",
+                "host": "5b112fb8-1619-4e3b-8d30-d70ecbb47d18-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://5b112fb8-1619-4e3b-8d30-d70ecbb47d18-bluemix:59d7ad07336b6f00ea39ca530be5fdc8e92625652c79ffe8e67776c66dcc65a8@5b112fb8-1619-4e3b-8d30-d70ecbb47d18-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "csindoni-liberty-watson-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "alchemy_api": [
+        {
+            "credentials": {
+                "url": "https://gateway-a.watsonplatform.net/calls",
+                "note": "It may take up to 5 minutes for this key to become active",
+                "apikey": "a6e4976d9f03e9377bb0e5e6314ceaf21d66d651"
+            },
+            "syslog_drain_url": null,
+            "label": "alchemy_api",
+            "provider": null,
+            "plan": "free",
+            "name": "AlchemyAPI-zf",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ]
+}
+
